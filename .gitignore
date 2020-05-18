@@ -1,0 +1,64 @@
+ProductCombinabilityWeb/target/
+ProductCombinabilityCommon/target/
+ProductCombinabilityService/target/
+
+config/target/
+/.version/
+*.class
+
+# Package Files
+*.war
+*.ear
+
+# Dependency Directories
+API/node_modules
+UI/node_modules
+node_modules
+
+# WebStorm files
+API/.idea
+
+# Build files
+API/dist
+target
+/target/
+/.apt_generated/
+build
+tmp
+dist
+.bin
+.gradle
+
+# disney
+SBCLib/
+test-output
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.factorypath
+.cache
+
+# idea conf files
+.idea
+*.iml
+*.ipr
+*.iws
+*.eml
+
+# misc
+.DS_Store
+*.lock
+*.springBeans
+.nb-gradle
+
+# local development config file
+/API/src/api/local_config.js
+
+# npm-debug log
+API/npm-debug.log
+
+# Chimera
+.vagrant
+.metadata/
